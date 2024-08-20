@@ -1,0 +1,60 @@
+
+        .masonry {
+            margin: 0 auto;
+        }
+
+        .portfolio-items {
+            margin: 0; /* Geen negatieve marges meer */
+            background:red;
+        }
+
+        .portfolio-items .portfolio-item {
+            width: calc(33.333% - 20px); /* Drie kolommen met 20px totaalruimte ertussen */
+            margin-bottom: 20px; /* Gelijke ruimte onder elk item */
+            box-sizing: border-box;
+            padding: 10px; /* Padding om ervoor te zorgen dat de Masonry-gutter gelijk is */
+        }
+
+        .work-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .work-item a {
+            display: block;
+        }
+
+        .work-item-image {
+            width: 100%;
+            display: block;
+            border-radius: 8px;
+        }
+
+        .work-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+       
+        @media screen and (max-width: 1024px) {
+            .portfolio-items .portfolio-item {
+                width: calc(33.33% - 20px);
+            }
+        }
+        
+        @media screen and (max-width: 768px) {
+            .portfolio-items .portfolio-item {
+                width: calc(50% - 20px);
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            .portfolio-items .portfolio-item {
+                width: calc(100% - 20px);
+            }
+        }
+        
+          

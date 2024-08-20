@@ -1,0 +1,268 @@
+# Translation of Plugins - Force Regenerate Thumbnails - Stable (latest release) in Dutch (Belgium)
+# This file is distributed under the same license as the Plugins - Force Regenerate Thumbnails - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-09-13 18:54:15+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: nl_BE\n"
+"Project-Id-Version: Plugins - Force Regenerate Thumbnails - Stable (latest release)\n"
+
+#: class-forceregeneratethumbnails.php:353
+msgctxt "Thumbnail regen page"
+msgid "Force Regenerate Thumbnails"
+msgstr "Opnieuw generen thumbnails forceren"
+
+#: class-forceregeneratethumbnails.php:284
+msgctxt "Media Library bulk actions drop-down"
+msgid "Force Regenerate Thumbnails"
+msgstr "Opnieuw generen thumbnails forceren"
+
+#: class-forceregeneratethumbnails.php:262
+msgctxt "Media row action"
+msgid "Force Regenerate Thumbnails"
+msgstr "Opnieuw generen thumbnails forceren"
+
+#: class-forceregeneratethumbnails.php:89
+msgctxt "Admin menu text"
+msgid "Force Regenerate Thumbnails"
+msgstr "Force Regenerate Thumbnails"
+
+#: class-forceregeneratethumbnails.php:88
+msgctxt "Admin menu page title tag"
+msgid "Force Regenerate Thumbnails"
+msgstr "Force Regenerate Thumbnails"
+
+#. translators: %d: the attachment ID number
+#: class-forceregeneratethumbnails.php:943
+msgid "(ID %d)"
+msgstr "(ID %d)"
+
+#. translators: %s: time elapsed
+#: class-forceregeneratethumbnails.php:753
+msgid "Successfully regenerated in %s seconds"
+msgstr "Met succes opnieuw gegenereerd in %s seconden"
+
+#. translators: %s: list of regenerated thumbs/sizes
+#: class-forceregeneratethumbnails.php:750
+msgid "Regenerate: %s"
+msgstr "Regenereren: %s"
+
+#. translators: %s: the path to the uploads directory
+#: class-forceregeneratethumbnails.php:746
+msgid "Please ensure the folder has write permissions (chmod 755): %s"
+msgstr "Verzeker je ervan dat de map schrijfrechten heeft (chmod 755): %s"
+
+#. translators: %s: an error message (translated elsewhere)
+#: class-forceregeneratethumbnails.php:744
+msgid "Deleted error: %s"
+msgstr "Verwijderd fout: %s"
+
+#. translators: %s: list of deleted thumbs
+#: class-forceregeneratethumbnails.php:740
+msgid "Deleted: %s"
+msgstr "Verwijderd: %s"
+
+#. translators: %s: debug info, if populated
+#: class-forceregeneratethumbnails.php:733
+msgid "Image Debug 4: %s"
+msgstr "Afbeelding debug 4: %s"
+
+#. translators: %s: debug info, if populated
+#: class-forceregeneratethumbnails.php:729
+msgid "Image Debug 3: %s"
+msgstr "Afbeelding debug 3: %s"
+
+#. translators: %s: debug info, if populated
+#: class-forceregeneratethumbnails.php:725
+msgid "Image Debug 2: %s"
+msgstr "Afbeelding debug 2: %s"
+
+#. translators: %s: the full path of the image
+#: class-forceregeneratethumbnails.php:722
+msgid "Image: %s"
+msgstr "Afbeelding: %s"
+
+#. translators: %s: the base URL of the uploads directory
+#: class-forceregeneratethumbnails.php:720
+msgid "Upload URL: %s"
+msgstr "Upload URL: %s"
+
+#. translators: %s: the path to the uploads directory
+#: class-forceregeneratethumbnails.php:718
+msgid "Upload Directory: %s"
+msgstr "Upload map: %s"
+
+#. translators: 1: attachment title 2: attachment ID number
+#: class-forceregeneratethumbnails.php:711
+msgid "%1$s (ID %2$d)"
+msgstr "%1$s (ID %2$d)"
+
+#: class-forceregeneratethumbnails.php:639
+msgid "Unknown failure."
+msgstr "Onbekende fout."
+
+#: class-forceregeneratethumbnails.php:530
+msgid "The originally uploaded image file cannot be found."
+msgstr "Het oorspronkelijk geüploade afbeeldingsbestand is niet te vinden."
+
+#. translators: %d: attachment ID number
+#: class-forceregeneratethumbnails.php:511
+msgid "Skipped: %d is a SVG"
+msgstr "Overgeslagen: %d is een SVG"
+
+#: class-forceregeneratethumbnails.php:503
+msgid "Failed: The imagick extension is required for PDF files."
+msgstr "Mislukt: de imagick extensie is vereist voor PDF bestanden."
+
+#. translators: %d: attachment ID number
+#: class-forceregeneratethumbnails.php:494
+#: class-forceregeneratethumbnails.php:499
+msgid "Failed: %d is an invalid media ID."
+msgstr "Mislukt: %d is een ongeldig media ID."
+
+#. translators: %d: attachment ID number
+#: class-forceregeneratethumbnails.php:484
+msgid "Skipped: %d"
+msgstr "Overgeslagen: %d"
+
+#: class-forceregeneratethumbnails.php:476
+msgid "Access token has expired, please reload the page."
+msgstr "Access token is verlopen, herlaad de pagina."
+
+#: class-forceregeneratethumbnails.php:473
+msgid "Your user account does not have permission to regenerate thumbnails."
+msgstr "Je gebruikersaccount heeft geen toestemming om thumbnails opnieuw te genereren."
+
+#: class-forceregeneratethumbnails.php:458
+msgid "No attachment ID submitted."
+msgstr "Geen bijlage ID ingediend."
+
+#. translators: %s: link to install EWWW Image Optimizer plugin
+#: class-forceregeneratethumbnails.php:436
+msgid "Install the free %s for sharper thumbnails, better compression, and to control which thumbnails are created."
+msgstr "Installeer de gratis %s voor scherpere thumbnail, betere compressie en om te bepalen welke thumbnails worden gemaakt."
+
+#. translators: %s: Media Library (link)
+#: class-forceregeneratethumbnails.php:424
+msgid "Media Library"
+msgstr "Mediabibliotheek"
+
+#. translators: %s: Media Library (link)
+#: class-forceregeneratethumbnails.php:424
+msgid "You may regenerate thumbnails for specific images from the %s in List mode."
+msgstr "Je kunt thumbnails opnieuw genereren voor specifieke afbeeldingen van de %s in de lijstmodus."
+
+#: class-forceregeneratethumbnails.php:420
+msgid "Specific Thumbnails"
+msgstr "Specifieke thumbnails"
+
+#: class-forceregeneratethumbnails.php:416
+msgid "Regenerate All Thumbnails"
+msgstr "Genereer alle thumbnails opnieuw"
+
+#: class-forceregeneratethumbnails.php:411
+#: class-forceregeneratethumbnails.php:425
+msgid "Be sure to backup your site before you begin."
+msgstr "Maak een back-up van je website voordat je begint."
+
+#: class-forceregeneratethumbnails.php:410
+msgid "You may regenerate thumbnails for all images that you have uploaded to your blog."
+msgstr "Je kunt thumbnails opnieuw genereren voor alle afbeeldingen die je naar je blog hebt geüpload."
+
+#: class-forceregeneratethumbnails.php:407
+msgid "All Thumbnails"
+msgstr "Alle thumbnails"
+
+#. translators: %d: the number of regeneration failures
+#: class-forceregeneratethumbnails.php:392
+msgid "Failure: %s"
+msgstr "Mislukt: %s"
+
+#. translators: %d: the number of successfully regenerated images
+#: class-forceregeneratethumbnails.php:389
+msgid "Success: %s"
+msgstr "Gelukt: %s"
+
+#. translators: %d: the total number of images
+#: class-forceregeneratethumbnails.php:386
+msgid "Total: %s"
+msgstr "Totaal: %s"
+
+#: class-forceregeneratethumbnails.php:381
+msgid "Process Information"
+msgstr "Proces informatie"
+
+#: class-forceregeneratethumbnails.php:379
+msgid "Abort Process"
+msgstr "Proces annuleren"
+
+#: class-forceregeneratethumbnails.php:374
+#: class-forceregeneratethumbnails.php:415
+msgid "You must enable Javascript in order to proceed!"
+msgstr "Je dient JavaScript te activeren om verder te kunnen gaan!"
+
+#: class-forceregeneratethumbnails.php:372
+msgid "Please be patient while the thumbnails are regenerated. Details will be displayed below as each image is completed."
+msgstr "Even geduld terwijl de thumbnails opnieuw worden gegenereerd. Details worden hieronder weergegeven wanneer elke afbeelding is afgerond."
+
+#: class-forceregeneratethumbnails.php:367
+msgid "You do not appear to have uploaded any images or PDF files yet."
+msgstr "Het lijkt erop dat je nog geen afbeeldingen of pdf bestanden hebt geüpload."
+
+#: class-forceregeneratethumbnails.php:348
+msgid "Retry Failed Images"
+msgstr "Mislukte afbeeldingen opnieuw proberen"
+
+#: class-forceregeneratethumbnails.php:344
+msgid "Go back to the previous page."
+msgstr "Ga terug naar de vorige pagina."
+
+#: class-forceregeneratethumbnails.php:342
+msgid "All done!"
+msgstr "Helemaal klaar!"
+
+#: class-forceregeneratethumbnails.php:262
+msgid "Regenerate the thumbnails for this single image"
+msgstr "Genereer de thumbnails opnieuw voor alleen deze afbeelding"
+
+#: class-forceregeneratethumbnails.php:167
+msgid "Unknown error occured."
+msgstr "Er is een onbekende fout opgetreden."
+
+#: class-forceregeneratethumbnails.php:166
+msgid "Stopping..."
+msgstr "Wordt gestopt..."
+
+#: class-forceregeneratethumbnails.php:118
+#: class-forceregeneratethumbnails.php:361
+msgid "Access denied."
+msgstr "Toegang geweigerd."
+
+#. Author URI of the plugin
+#: force-regenerate-thumbnails.php
+msgid "http://ewww.io/about/"
+msgstr "http://ewww.io/about/"
+
+#. Author of the plugin
+#: force-regenerate-thumbnails.php
+msgid "Exactly WWW"
+msgstr "Exactly WWW"
+
+#. Description of the plugin
+#: force-regenerate-thumbnails.php
+msgid "Delete and REALLY force the regeneration of thumbnails."
+msgstr "Verwijder en forceer ECHT het opnieuw genereren van de thumbnail."
+
+#. Plugin URI of the plugin
+#: force-regenerate-thumbnails.php
+msgid "https://wordpress.org/plugins/force-regenerate-thumbnails/"
+msgstr "https://wordpress.org/plugins/force-regenerate-thumbnails/"
+
+#. Plugin Name of the plugin
+#: force-regenerate-thumbnails.php
+msgid "Force Regenerate Thumbnails"
+msgstr "Force Regenerate Thumbnails"
