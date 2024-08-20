@@ -3,7 +3,7 @@ jQuery(document).ready(function($) {
         itemSelector: '.portfolio-item',
         columnWidth: '.portfolio-item',
         percentPosition: true,
-        gutter: 20  // De gutter zorgt voor gelijke spacing
+        gutter: 10  // De gutter zorgt voor gelijke spacing
     });
     
     $grid.imagesLoaded().progress(function() {

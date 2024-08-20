@@ -5,14 +5,18 @@
 
         .portfolio-items {
             margin: 0; /* Geen negatieve marges meer */
-            background:red;
         }
 
         .portfolio-items .portfolio-item {
-            width: calc(33.333% - 20px); /* Drie kolommen met 20px totaalruimte ertussen */
-            margin-bottom: 20px; /* Gelijke ruimte onder elk item */
+            width: calc(33.333% - 10px); /* Drie kolommen met 20px totaalruimte ertussen */
+            margin-bottom: 0px; /* Gelijke ruimte onder elk item */
             box-sizing: border-box;
             padding: 10px; /* Padding om ervoor te zorgen dat de Masonry-gutter gelijk is */
+            overflow: hidden;
+        }
+
+        .portfolio-items .portfolio-item img {
+            border-radius: 15px;
         }
 
         .work-item {
@@ -35,7 +39,6 @@
 
         .work-item:hover {
             transform: scale(1.05);
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
         }
 
        
@@ -57,4 +60,9 @@
             }
         }
         
-          
+        #Laag_1 {
+            margin-bottom:50px;
+        }
+
+
+        .nectar-icon-list-item .content {font-size:11px;}

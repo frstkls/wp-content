@@ -1,0 +1,75 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 22 July 2024 15:04
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.5.10.1
+WORDPRESS:	6.6
+PHP INFO:	8.1.29 | SAPI: fpm-fcgi
+SERVER:		nginx/1.16.0 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (256M default) 
+MEMORY STACK: 12MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Not Supported
+TABLES: total:13 | filtered:0 | create:13
+FILTERED: []
+SQL CREATED: 20240722_ppcpools_99dac7299f96ced28491_20240722150414_database.sql
+SQL FILE SIZE: 10.86MB (11391013)
+SQL FILE TIME: 2024-07-22 15:04:20
+SQL RUNTIME: 0.61 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  /Users/klaas/Local Sites/ppc-pools/app/public
+ARCHIVE FILE: 20240722_ppcpools_99dac7299f96ced28491_20240722150414_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	330.79MB
+STATS:	Dirs 1,447 | Files 11,343
+SQL ADDED: 20240722_ppcpools_99dac7299f96ced28491_20240722150414_database.sql
+ZipArchive Object
+(
+    [lastId] => 12789
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 12790
+    [filename] => /Users/klaas/Local Sites/ppc-pools/app/public/wp-content/backups-dup-lite/tmp/20240722_ppcpools_99dac7299f96ced28491_20240722150414_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 12789
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 201.86MB
+ARCHIVE RUNTIME: 17.85 sec.
+MEMORY STACK: 18MB
+building installer
+ARCHIVE CONSISTENCY TEST: PASS
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 10.86MB
+INSTALLER FILE: 73.48KB
+ARCHIVE FILE: 203.84MB 
+EXPECTED FILE/DIRECTORY COUNT: 12,790
+ACTUAL FILE/DIRECTORY COUNT: 12,789
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 25.92 sec.
+PEAK PHP MEMORY USED: 22.02MB
+DONE PROCESSING => 20240722_ppcpools 22 July 2024 15:04
+
